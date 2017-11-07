@@ -5,21 +5,20 @@ Built for React, this component allows you to achieve a UI similar to the iOS pa
 
 ## Installation
 
-react-cardstack requires **React 0.14 or later.**
-
 ```
-npm install --save react-cardstack
+git clone https://github.com/kencharo/react-cardstack.git
 ```
 
 ## Demo & Example
 
 Live demo: [cameronbourke.github.io/react-cardstack](http://cameronbourke.github.io/react-cardstack)
 
-To build the example locally, clone this repo then run:
+Run with docker:
 
 ```
-npm install
-npm start
+cd react-cardstack
+docker build -t react-cardstack:1.0 .
+docker run -it --net=host react-cardstack:1.0
 Then open localhost:8080 in a browser.
 ```
 
