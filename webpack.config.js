@@ -9,7 +9,10 @@ module.exports = {
 		libraryTarget: 'umd',
 		umdNamedDefine: true,
 	},
-	module: {
+        devServer: {
+	    historyApiFallback: true
+	},
+        module: {
 		loaders: [
 			{
 				test: /\.jsx?$/,
